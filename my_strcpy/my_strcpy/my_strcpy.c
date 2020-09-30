@@ -19,11 +19,11 @@ void my_strcpy(char* dest, char* src) {
 }
 
 int main(void) {
-	char origin[] = "helloworld";
-	char test[20];
+	char origin[] = "helloworld";	// 원본 데이터
+	char test[20];					// 복사될 변수 공간
 
 	my_strcpy(test, origin);
-	printf("result: %s\n", test);	// 결과 출력
+	printf("result: %s\n", test);	// 복사 결과 출력
 
 	return 0;
 }
