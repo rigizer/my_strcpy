@@ -50,3 +50,5 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+/.vs
+/my_strcpy/.vs/my_strcpy/v16
